@@ -1,0 +1,77 @@
+/* - - - - Imports - - - - */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro&display=swap');
+
+/* - - - - Element & Field Selectors - - - - */
+
+body {
+	padding-top: 3rem;
+	background: rgb(52, 58, 64, 0.05);
+}
+
+hr {
+	border-top: 1px solid #e9ecef;
+	border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+/* - - - - Classes/Ids in alphabetical order - - - - */
+
+.active {
+	border-bottom: 2px solid #ced4da;
+	padding-bottom: 0.3rem;
+}
+
+.bg-meeting {
+	background-image: url(../img/home-bg.jpg);
+	background-size: cover;
+	border-radius: 0;
+}
+
+.bg-dark-transparent {
+	background-color: rgb(52, 58, 64, 0.85);
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+.btn-primary-light {
+	background: #3092fc;
+	color: white;
+}
+
+.jumbotron {
+	height: 82.5vh;
+}
+
+.lato {
+	font-family: "Lato";
+}
+
+.nav-item {
+	text-align: center;
+}
+
+.nav-link {
+	text-align: center;
+	display: inline-block;
+}
+
+.nav-link:hover {
+	border-bottom: 2px solid #868e96;
+	padding-bottom: 0.2rem;
+}
+
+.navbar-brand:hover {
+	border-bottom: 2px solid #868e96;
+}
+
+.source-sans-pro {
+	font-family: "Source Sans Pro";
+}
+
+.text-primary-light {
+	color: #3092fc;
+}
+
+.text-shadow-thin {
+	text-shadow: 0.05rem 0.05rem #212529;
+}

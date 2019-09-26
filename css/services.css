@@ -1,0 +1,103 @@
+/* - - - - Elements & Type Selectors - - - - */
+
+body {
+	padding-top: 3.6rem;
+	background: rgb(52, 58, 64, 0.05);
+}
+
+hr {
+	border-top: 1px solid #e9ecef;
+	border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -3rem; 
+  height: 3rem; 
+  visibility: hidden; 
+}
+
+[data-toggle="collapse"] .fas:before {   
+  content: "\f139";
+}
+
+[data-toggle="collapse"].collapsed .fas:before {
+  content: "\f13a";
+}
+
+/* - - - - Classes/Ids in alphabetical order - - - - */
+
+.active {
+	border-bottom: 2px solid #ced4da;
+	padding-bottom: 0.2rem;
+}
+
+.bg-dark-transparent {
+	background-color: rgb(52, 58, 64, 0.8);
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+.card {
+	border-radius: 0;
+}
+
+.card-img-top {
+	border-radius: 0;
+	height: 36vh;
+}
+
+.display-4 {
+	font-size: 3rem;
+}
+
+.header {
+	padding-left: 1.25rem;
+	font-size: 1.15rem;
+	text-align: left;
+}
+
+.header:focus {
+	box-shadow: none;
+}
+
+.img-cover {
+	object-fit: cover;
+	object-position: 100% 0;
+}
+
+.nav-item {
+	text-align: center;
+}
+
+.nav-link {
+	text-align: center;
+	display: inline-block;
+}
+
+.nav-link:hover {
+	border-bottom: 2px solid #868e96;
+	padding-bottom: 0.2rem;
+}
+
+.navbar-brand:hover {
+	border-bottom: 2px solid #868e96;
+}
+
+.text-shadow-thin {
+	text-shadow: 0.05rem 0.05rem #212529;
+}
+
+#toTop {
+	display: none;
+	position: fixed;
+	z-index: 99;
+	bottom: 4rem; right: 2rem;
+	font-size: 1.5rem;
+	opacity: 0.8;
+}
+
+#toTop:focus {
+	box-shadow: none;
+}
